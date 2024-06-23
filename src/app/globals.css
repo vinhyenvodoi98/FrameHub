@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.min-h-main {
+  @apply min-h-[calc(100vh)];
+  padding-top: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
